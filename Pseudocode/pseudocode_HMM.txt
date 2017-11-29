@@ -11,7 +11,7 @@
 
 1)
 
-for i in *ref
+for i in *.fasta
 do
 ../muscle3.8.31_i86win32.exe -in $i -out $i.align
 done
@@ -25,7 +25,7 @@ done
 
 3)
 
-for i in *fasta
+for i in *.fasta
 do
-../hmmer-3.1b2-cygwin64/binaries/hmmsearch.exe --tblout $i.hits (all .hmm files) $i
+../hmmer-3.1b2-cygwin64/binaries/hmmsearch.exe --tblout $i.hits (loop all .hmm files) $i
 done
