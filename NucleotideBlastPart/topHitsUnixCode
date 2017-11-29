@@ -2,3 +2,5 @@ for file in *.csv; do head -1 $file; done > topHits.csv
 
 # Works only when the data is in multiple csv files
  
+#If you didn't want to use a for loop then you could do each file separately and then append them to the same document
+#Example code: head -1 filename.csv >> output.csv
