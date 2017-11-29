@@ -10,11 +10,11 @@ control2=open("control2.fasta","r+")
 obese1=open("obese1.fasta","r+")
 obese2=open("obese2.fasta","r+")
 #create output files, which should contain amino acid residues
-control1-amino=open("control1-amino.fasta","w")
-control2-amino=open("control2-amino.fasta","w")
-obese1-amino=open("obese1-amino.fasta","w")
-obese2-amino=open("obese2-amino.fasta","w")
-#build for loop that first ties the accession line and the sequence lines together
+control1amino=open("control1amino.fasta","w")
+control2amino=open("control2amino.fasta","w")
+obese1amino=open("obese1amino.fasta","w")
+obese2amino=open("obese2amino.fasta","w")
+build for loop that first ties the accession line and the sequence lines together
 for fasta in control1:
     fasta=fasta.strip()
     if fasta[0] == ">":
