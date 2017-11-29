@@ -1,0 +1,31 @@
+#pseudocode for the Hidden Markov Model
+
+1) do a loop for muscle alignments for each of the 6 transcripts from the downloaded protein sequences
+
+2) do a HMM build in a loop using the new alignments and 6 
+
+3) do a HMM search using the HMMbuild files and the fasta files containing sequences to be searched
+
+
+## further development of code
+
+1)
+
+for i in *ref
+do
+../muscle3.8.31_i86win32.exe -in $i -out $i.align
+done
+
+2)
+
+for i in *.align
+do
+../hmmer-3.1b2-cygwin64/binaries/hmmbuild.exe $i.hmm $i
+done
+
+3)
+
+for i in *fasta
+do
+../hmmer-3.1b2-cygwin64/binaries/hmmsearch.exe --tblout $i.hits (all .hmm files) $i
+done
