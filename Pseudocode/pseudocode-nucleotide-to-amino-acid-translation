@@ -1,0 +1,5 @@
+1) Import packages
+	A) numpy, pandas, re, scipy
+2) Import codon table as a dataframe
+3) Import fasta files as dataframes
+4) 
