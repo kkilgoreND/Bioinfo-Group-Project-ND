@@ -2,4 +2,8 @@
 	A) numpy, pandas, re, scipy
 2) Import codon table as a dataframe
 3) Import fasta files as dataframes
-4) 
+4) Strip the first lines of their carat, akin to what we have done before in class
+	
+5) For loop to complete the following...
+	for nucleotides in allFastaFiles
+		
