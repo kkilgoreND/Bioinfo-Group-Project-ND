@@ -2,5 +2,5 @@
 
 for i in ../ProteinBlast/*.fasta
 do
-../muscle3.8.31_i86win32.exe -in $i -out $i.align
+../muscle3.8.31_i86win32.exe -in $i -out ../HMM/$i.align
 done
