@@ -1,4 +1,6 @@
 #loop to align 6 transcripts from downloaded protein sequences
+#this loop takes protein transcripts from ProteinBlast directory and outputs to that directory
+#we then copy the .align file to the HMM directory for ease with HMM commands in the future
 
 for i in ../ProteinBlast/*.fasta
 do
