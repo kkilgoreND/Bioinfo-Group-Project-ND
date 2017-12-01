@@ -1,4 +1,4 @@
-# HMM build loop using alignments from muscle script and 6 sequences
+# HMM build loop using alignments from muscle script (.align files) and output as .hmm file
 
 for i in *.align
 do
