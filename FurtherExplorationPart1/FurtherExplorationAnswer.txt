@@ -1,0 +1,10 @@
+discontinuous MegaBlast
+- looks for longer matches therefore has less 'hits' (for example transcript 2 has 44 hits compared to the 123 
+hits from using Blastn) (146 vs 169 transcript 6) (262 vs 295 transcript 8)
+
+Blastn
+- many more hits found here -- not as specific sequences are included
+
+- another indication of the less specific results given from a Blastn search is the E value accepted values. 
+For example the highest E value found under a discontinuous MegaBlast is 1.2 while 4.2 is found under the 
+Blastn E values for transcript 8.
