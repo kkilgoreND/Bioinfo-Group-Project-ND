@@ -12,14 +12,15 @@ obese1=open("obese1.fasta","r+")
 obese2=open("obese2.fasta","r+")
 
 #Create output files
-control1amino=open("control1amino.fasta","r+")
-control2amino=open("control2amino.fasta","r+")
-obese1amino=open("obese1amino.fasta","r+")
-obese2amino=open("obese2amino.fasta","r+")
+control1amino=open("control1amino.fasta","w+")
+control2amino=open("control2amino.fasta","w+")
+obese1amino=open("obese1amino.fasta","w+")
+obese2amino=open("obese2amino.fasta","w+")
 
 #Open translation table
 codontable=defaultdict(list)
 
+#Convert text file to dictionary using codons as keys and amino acids as values
 with open("codonmap.txt") as file:
     for line in file:
         v,k=line.strip().split()
@@ -42,21 +43,37 @@ stop = ('TAA','TGA','TAG')
 		#of the three stop codons?
 	#Insert line break
 
-for line in control1:
-    line=line.strip()
-    if ">" in line:
-        seqid=line
-        control1amino.write(seqid+"\n")
-    else:
-        start=line.find('ATG')
-        sequencestart=line[start:]
-        cds=[sequencestart[i:i+3] for i in range(0,len(sequencestart),3)]
+def translate(codon, fasta):
+    sequences = [] # sequential list of protein sequences
+    sequence_names = []
+
+    for line in fasta:
+        line=line.strip()
+        if ">" in line:
+            seqid=line
+            sequence_names.append(seqid)
+        else:
+            for i in range(0,len(line),3):
+                start=line.find('ATG')
+                sequencestart=line[start:]
+                cd=codon[sequencestart[i:i+3]]
+                if cd=='Stop':
+                    break
+                else:
+                    protein += cd
+                    sequences.append(protein)
+                    
+    return '\n'.join(['{0}\n{1}'.format(sequence_names[p], sequences[p]) for p in range(len(sequences))])
+    
+        #start=line.find('ATG')
+        #sequencestart=line[start:]
+        #cds=[sequencestart[i:i+3] for i in range(0,len(sequencestart),3)]
        
-        coding_sequence=takewhile(lambda x:x not in stop and len(x)==3, cds)
+        #coding_sequence=takewhile(lambda x:x not in stop and len(x)==3, cds)
         
-        protein_sequence=''.join([codontable[codon] for codon in coding_sequence])
+        #protein_sequence=''.join([codontable[x] for x in coding_sequence])
         
-        control1amino.write(protein_sequence+"\n")
+        #control1amino.write(protein_sequence+"\n")
         
         
 #Close files
