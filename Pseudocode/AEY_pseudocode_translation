@@ -1,0 +1,70 @@
+import numpy
+import pandas
+import re
+import scipy
+from itertools import takewhile
+from collections import defaultdict
+
+#Open FASTA file
+control1=open("control1.fasta","r+")
+control2=open("control2.fasta","r+")
+obese1=open("obese1.fasta","r+")
+obese2=open("obese2.fasta","r+")
+
+#Create output files
+control1amino=open("control1amino.fasta","r+")
+control2amino=open("control2amino.fasta","r+")
+obese1amino=open("obese1amino.fasta","r+")
+obese2amino=open("obese2amino.fasta","r+")
+
+#Open translation table
+codontable=defaultdict(list)
+
+with open("codonmap.txt") as file:
+    for line in file:
+        v,k=line.strip().split()
+        codontable[k].append(v)
+
+print codontable
+
+#Define stop codons
+stop = ('TAA','TGA','TAG')
+
+#For each line in fasta file
+	#If ">":
+		#Copy to new FASTA file
+		#Insert line break
+	#Else:
+		#Scan line for first start codon - find regex match for "ATG"
+		#Translate each following codon into an amino acid, append to new FASTA file - need to take groups of 3 nucleotides before 
+		#translating
+		#Stop at first stop codon - store current 3 nucleotides being translated in variable, check if variable matches regex for any 
+		#of the three stop codons?
+	#Insert line break
+
+for line in control1:
+    line=line.strip()
+    if ">" in line:
+        seqid=line
+        control1amino.write(seqid+"\n")
+    else:
+        start=line.find('ATG')
+        sequencestart=line[start:]
+        cds=[sequencestart[i:i+3] for i in range(0,len(sequencestart),3)]
+       
+        coding_sequence=takewhile(lambda x:x not in stop and len(x)==3, cds)
+        
+        protein_sequence=''.join([codontable[codon] for codon in coding_sequence])
+        
+        control1amino.write(protein_sequence+"\n")
+        
+        
+#Close files
+control1.close()
+control2.close()
+obese1.close()
+obese2.close()
+control1amino.close()
+control2amino.close()
+obese1amino.close()
+obese2amino.close()
