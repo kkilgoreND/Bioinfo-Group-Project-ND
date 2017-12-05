@@ -1,5 +1,7 @@
 # Import packages
 import re
+import sys
+import itertools
 from sys import argv
 script, filename = argv
 from itertools import takewhile
