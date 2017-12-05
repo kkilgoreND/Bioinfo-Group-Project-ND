@@ -31,8 +31,7 @@ def translateDna(sequence, codonMapDict, stopCodons = ('TAA', 'TGA', 'TAG')):
     #trim sequence starting at first start codon 
     trimmedSequence = sequence[start:]    
     #split sequence into codons 
-    codons = [trimmedSequence[i:i+3] for i in range(0, len(trimmed_sequence), 3)]
- 
+    codons = [trimmedSequence[i:i+3] for i in range(0, len(trimmedsequence), 3)]
     codingSequence = takewhile(lambda x: x not in stopCodons and len(x) == 3 , codons)
     proteinSequence = ''.join([codonMapDict[codon] for codon in codingSequence])
 
