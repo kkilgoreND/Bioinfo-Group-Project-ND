@@ -25,7 +25,7 @@ for line in codons:
 #stopCodons = ['TAA', 'TGA', 'TAG']
 #stop = re.compile(r'(TAA | TGA | TAG)')
 
-def translateDna(sequence, codonMapDict, stop_codons = ('TAA', 'TGA', 'TAG')):
+def translateDna(sequence, codonMapDict, stopCodons = ('TAA', 'TGA', 'TAG')):
     #find first start codon 
     start = sequence.find('ATG')    
     #trim sequence starting at first start codon 
