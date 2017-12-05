@@ -3,7 +3,7 @@ import re
 import sys
 import itertools
 from sys import argv
-script, filename = argv
+#script, filename = argv
 from itertools import takewhile
 
 # Open data files 
