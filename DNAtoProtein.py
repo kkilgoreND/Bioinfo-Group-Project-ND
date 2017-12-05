@@ -10,13 +10,13 @@ from itertools import takewhile
 codons = open ("codonmap.txt", 'r')
 
 # Create a dictionary for codon map 
-codonmap_dict = {}
+codonMapDict = {}
 
 # Create for loop to read codonmap.txt into dictionary (reversed columns 0 and 1 to create full dictionary)
 for line in codons:
     line = line.strip()
     cols = line.split()
-    if cols[1] in codonmap_dict:
+    if cols[1] in codonMapDict:
         print ("Duplicate: " + codonMapDict [0])
         break
     else:
