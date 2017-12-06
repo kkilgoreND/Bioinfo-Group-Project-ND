@@ -3,8 +3,8 @@
 # bash HMMsearch.sh *.hmm
 # $1 is all the .hmm files in the directory
 
-for i in ../*protein.fasta
+for i in ../*Protein
 do
-../hmmer-3.1b2-cygwin64/binaries/hmmsearch.exe --tblout $i.hits $1 $i
+../hmmer-3.1b2-cygwin64/binaries/hmmsearch.exe --tblout $i*.hits $1 $i
 done
 
