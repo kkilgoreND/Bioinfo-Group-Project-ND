@@ -1,0 +1,24 @@
+No “issues” but good comments with the commits
+
+The scripts supplied work with one exception. Exercise3.py throws an 
+invalid syntax error at line 83. The equals sign and the less than sign 
+are in the wrong order. Placing them in reverse, less than sign then the 
+equals sign, fixes the script.
+
+
+
+The Part3.py and Part3_v2.py scripts do not throw any error messages, 
+but they were hung up by my processor for five minutes.
+
+
+
+Q1P2.py is a very efficient code and worked great!
+
+
+
+
+When writing pseudocode, can be more helpful to add more detail – not necessarily actual syntax, but each individual step of a function could be laid out, i.e. what does this part do, here’s where I set up my variables, here’s where I write an equation, etc. See pseudocode for Question 3 for comparison.
+
+As far as I can see in Question 1 Part 1, the alternative hypothesis never gets called again? So I’m not really sure how you’re testing the differences between your alternative and your null hypothesis to determine if there’s a treatment effect?
+
+Also, your null hypothesis doesn’t look any different from your alternative hypothesis? See Question 1 Part 2 in comparison.
