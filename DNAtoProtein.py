@@ -22,9 +22,6 @@ for line in codons:
     else:
         codonMapDict [cols[1]] = cols[0]
 
-#stopCodons = ['TAA', 'TGA', 'TAG']
-#stop = re.compile(r'(TAA | TGA | TAG)')
-
 def translateDna(sequence, codonMapDict, stopCodons = ('TAA', 'TGA', 'TAG')):
     #find first start codon 
     start = sequence.find('ATG')    
