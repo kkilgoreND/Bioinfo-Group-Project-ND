@@ -1,0 +1,31 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Control1             -          Atp12a.fasta         -                  0 2470.3  11.4         0 2470.1  11.4   1.0   1   0   0   1   1   1   1 -
+Control1             -          Atp12a.fasta         -                  0 2470.3  11.4         0 2470.1  11.4   1.0   1   0   0   1   1   1   1 -
+Control1             -          Atp12a.fasta         -                  0 2470.3  11.4         0 2470.1  11.4   1.0   1   0   0   1   1   1   1 -
+Control1             -          Atp12a.fasta         -                  0 2470.3  11.4         0 2470.1  11.4   1.0   1   0   0   1   1   1   1 -
+Control1             -          Atp12a.fasta         -                  0 2470.3  11.4         0 2470.1  11.4   1.0   1   0   0   1   1   1   1 -
+Control1             -          Atp12a.fasta         -                  0 2470.3  11.4         0 2470.1  11.4   1.0   1   0   0   1   1   1   1 -
+Control1             -          Atp12a.fasta         -                  0 2470.3  11.4         0 2470.1  11.4   1.0   1   0   0   1   1   1   1 -
+Control1             -          Atp12a.fasta         -                  0 2470.3  11.4         0 2470.1  11.4   1.0   1   0   0   1   1   1   1 -
+Control1             -          Atp12a.fasta         -                  0 2470.3  11.4         0 2470.1  11.4   1.0   1   0   0   1   1   1   1 -
+Control1             -          Atp12a.fasta         -                  0 2470.3  11.4         0 2470.1  11.4   1.0   1   0   0   1   1   1   1 -
+Control1             -          Atp12a.fasta         -                  0 2470.3  11.4         0 2470.1  11.4   1.0   1   0   0   1   1   1   1 -
+Control1             -          Atp12a.fasta         -                  0 2470.3  11.4         0 2470.1  11.4   1.0   1   0   0   1   1   1   1 -
+Control1             -          Atp12a.fasta         -                  0 2470.3  11.4         0 2470.1  11.4   1.0   1   0   0   1   1   1   1 -
+Control1             -          Atp12a.fasta         -                  0 2470.3  11.4         0 2470.1  11.4   1.0   1   0   0   1   1   1   1 -
+Control1             -          Atp12a.fasta         -                  0 2470.3  11.4         0 2470.1  11.4   1.0   1   0   0   1   1   1   1 -
+Control1             -          Atp12a.fasta         -                  0 2470.3  11.4         0 2470.1  11.4   1.0   1   0   0   1   1   1   1 -
+Control1             -          Atp12a.fasta         -                  0 2470.3  11.4         0 2470.1  11.4   1.0   1   0   0   1   1   1   1 -
+Control1             -          Atp12a.fasta         -                  0 2470.3  11.4         0 2470.1  11.4   1.0   1   0   0   1   1   1   1 -
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      Atp12a.fasta.align.hmm
+# Target file:     ../control1Protein
+# Option settings: ../hmmer-3.1b2-cygwin64/binaries/hmmsearch --tblout ../control1Protein*.hits Atp12a.fasta.align.hmm ../control1Protein 
+# Current dir:     /home/Joe/Bioinfo-Group-Project-ND/HMM
+# Date:            Tue Dec  5 20:45:22 2017
+# [ok]
