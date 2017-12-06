@@ -1,0 +1,14 @@
+my observations from the pdf file of the study completed for comparison to our results are as 
+follows:
+
+upregulated genes:
+
+- ptpn5
+- synpr
+- lhx2
+- atp12a
+
+Downregulated genes:
+
+- slc7a12
+- gsta2

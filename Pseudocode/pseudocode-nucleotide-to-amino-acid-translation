@@ -1,12 +1,53 @@
 1) Import packages
-	A) numpy, pandas, re, scipy
-2) Import codon table as a dataframe
-3) Import fasta files as dataframes; include an output file for each of the input fasta files. These will be the translated sequences.
-	For example...
-	control1=open("control1.fasta","r+")
-	control1amino=open("control1amino.fasta","w")
-4) Strip the first lines of their carat, akin to what we have done before in class
+	A) Re, sys, and itertools
+	B) From sys, import argv. From itertools, import takewhile.
+
+2) Import codon table as a dataframe while creating a dictionary for the 
+codon map. Doing so avoids lots of issues down the road...
+	A) codons = open("codonmap.txt", "r") . Don't forget the "r", 
+makes the txt file readable.
+	B) Simply do codonMapDict={}
+
+3) Create a for loop to read the codonmap.txt file into the codonMapDict 
+dictionary. Reversing the columns helps with completing the dictionary; 
+accomplished by an if statement.
+	A) for line in codons:
+		line=line.strip()
+		cols=line.split()
+		if cols[1] in codonMapDict:
+			print Duplicate
+			break
+		else:
+			codonMapDict [cols[1]]=cols[0]
 	
-5) For loop to complete the following...
-	for nucleotides in allFastaFiles
-		
+4) Make a definition for translating DNA, including a sequence searcher, 
+the codonMapDict from above, and the stop codons as a variable of either 
+TAA, TAG, or TGA. Regex can be a bit greedy if not properly programmed, 
+due to tryptophan having TGG codon. We avoided this by assigning the 
+three stop codons specifically.
+
+5) After the definition, simply start the sequence searcher to find ATG.
+	A) start=sequence.find('ATG')
+
+6) We trimmed out the sequences up to the first start codon (ATG) then we split the sequence into codons (increments of three).
+	A) Codons= [trimmedSequence[i:i+3] for i in range (0,len(trimmedSequence),3)]
+	B) Use takewhile and join to pull the first peptide sequence while continuing to search for additional peptides and place this in an output file.
+	C) codingSequence=takewhile(lambda x: x not in stopCodons and len(x) == 3, codons)
+	   proteinSequence= ''.join([codonMapDict[codon] for codon in codingSequence])
+	   return "{0}_".format(proteinSequence)
+
+7) We then sequentially built four different commands based on outfile to make an outfile (for example, control1Protein) as a writable file.
+	A) outfile=open ("outputProteinFastaFile",'w')
+	   for line in ("inputNucleotideFastaFile",'r'):
+		if ">" in line:
+			header=line
+			outfile.write(header + '\n')
+		else:
+			sequence=line #sequence is from steps 4-6
+			x = translateDNA (sequence, codonMapDict, stopCodons) #repeat from Steps 4 and 5		
+	   outfile.close()
+	B) We did this for all files in question.
+
+8) Close codons at the end with codons.close()
+
+That worked for us! 

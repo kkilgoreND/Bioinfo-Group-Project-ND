@@ -1,6 +1,10 @@
+-Search resticted to Mouse-
+
 discontinuous MegaBlast
 - looks for longer matches therefore has less 'hits' (for example transcript 2 has 44 hits compared to the 123 
 hits from using Blastn) (146 vs 169 transcript 6) (262 vs 295 transcript 8)
+
+-Accounts for genomes that have gapped alignments. Thus aligning sequences containing regions that don't have a match to the query sequence but still match portions of the query. Would probably be best on different species instead of the same type of species(i.e. mouse/Mus).
 
 Blastn
 - many more hits found here -- not as specific sequences are included
