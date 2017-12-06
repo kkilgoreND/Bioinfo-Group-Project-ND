@@ -49,3 +49,182 @@ Obese2               -          Atp12a.fasta         -                  0 2470.3
 # Current dir:     /home/Joe/Bioinfo-Group-Project-ND/HMM
 # Date:            Tue Dec  5 20:45:26 2017
 # [ok]
+
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Obese2               -          Gsta2.fasta          -           1.8e-130  427.9   0.3    2e-130  427.8   0.3   1.0   1   0   0   1   1   1   1 -
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      Gsta2.fasta.align.hmm
+# Target file:     ../obese2Protein
+# Option settings: ../hmmer-3.1b2-cygwin64/binaries/hmmsearch --tblout ../obese2Protein*Gsta2.hits Gsta2.fasta.align.hmm ../obese2Protein 
+# Current dir:     /test-git/Bioinfo-Group-Project-ND/HMMandMuscle/HMM
+# Date:            Wed Dec  6 12:28:48 2017
+# [ok]
+
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      Lhx2.fasta.align.hmm
+# Target file:     ../obese2Protein
+# Option settings: ../hmmer-3.1b2-cygwin64/binaries/hmmsearch --tblout ../obese2Protein*Lhx2.hits Lhx2.fasta.align.hmm ../obese2Protein 
+# Current dir:     /test-git/Bioinfo-Group-Project-ND/HMMandMuscle/HMM
+# Date:            Wed Dec  6 12:29:10 2017
+# [ok]
+
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      Ptpn5.fasta.align.hmm
+# Target file:     ../obese2Protein
+# Option settings: ../hmmer-3.1b2-cygwin64/binaries/hmmsearch --tblout ../obese2Protein*Ptpn5.hits Ptpn5.fasta.align.hmm ../obese2Protein 
+# Current dir:     /test-git/Bioinfo-Group-Project-ND/HMMandMuscle/HMM
+# Date:            Wed Dec  6 12:29:27 2017
+# [ok]
+
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Obese2               -          Slc7a12.fasta        -           2.3e-291  961.1  32.8  2.5e-291  961.0  32.8   1.0   1   0   0   1   1   1   1 -
+Obese2               -          Slc7a12.fasta        -           2.3e-291  961.1  32.8  2.5e-291  961.0  32.8   1.0   1   0   0   1   1   1   1 -
+Obese2               -          Slc7a12.fasta        -           2.3e-291  961.1  32.8  2.5e-291  961.0  32.8   1.0   1   0   0   1   1   1   1 -
+Obese2               -          Slc7a12.fasta        -           2.3e-291  961.1  32.8  2.5e-291  961.0  32.8   1.0   1   0   0   1   1   1   1 -
+Obese2               -          Slc7a12.fasta        -           2.3e-291  961.1  32.8  2.5e-291  961.0  32.8   1.0   1   0   0   1   1   1   1 -
+Obese2               -          Slc7a12.fasta        -           2.3e-291  961.1  32.8  2.5e-291  961.0  32.8   1.0   1   0   0   1   1   1   1 -
+Obese2               -          Slc7a12.fasta        -           2.3e-291  961.1  32.8  2.5e-291  961.0  32.8   1.0   1   0   0   1   1   1   1 -
+Obese2               -          Slc7a12.fasta        -           2.3e-291  961.1  32.8  2.5e-291  961.0  32.8   1.0   1   0   0   1   1   1   1 -
+Obese2               -          Slc7a12.fasta        -           2.3e-291  961.1  32.8  2.5e-291  961.0  32.8   1.0   1   0   0   1   1   1   1 -
+Obese2               -          Slc7a12.fasta        -           2.3e-291  961.1  32.8  2.5e-291  961.0  32.8   1.0   1   0   0   1   1   1   1 -
+Obese2               -          Slc7a12.fasta        -           2.3e-291  961.1  32.8  2.5e-291  961.0  32.8   1.0   1   0   0   1   1   1   1 -
+Obese2               -          Slc7a12.fasta        -           2.3e-291  961.1  32.8  2.5e-291  961.0  32.8   1.0   1   0   0   1   1   1   1 -
+Obese2               -          Slc7a12.fasta        -           2.3e-291  961.1  32.8  2.5e-291  961.0  32.8   1.0   1   0   0   1   1   1   1 -
+Obese2               -          Slc7a12.fasta        -           2.3e-291  961.1  32.8  2.5e-291  961.0  32.8   1.0   1   0   0   1   1   1   1 -
+Obese2               -          Slc7a12.fasta        -           2.3e-291  961.1  32.8  2.5e-291  961.0  32.8   1.0   1   0   0   1   1   1   1 -
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      Slc7a12.fasta.align.hmm
+# Target file:     ../obese2Protein
+# Option settings: ../hmmer-3.1b2-cygwin64/binaries/hmmsearch --tblout ../obese2Protein*Slc7a12.hits Slc7a12.fasta.align.hmm ../obese2Protein 
+# Current dir:     /test-git/Bioinfo-Group-Project-ND/HMMandMuscle/HMM
+# Date:            Wed Dec  6 12:29:45 2017
+# [ok]
+
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Obese2               -          Synpr.fasta          -             5e-190  624.2   6.3  5.7e-190  624.0   6.3   1.0   1   0   0   1   1   1   1 -
+Obese2               -          Synpr.fasta          -             5e-190  624.2   6.3  5.7e-190  624.0   6.3   1.0   1   0   0   1   1   1   1 -
+Obese2               -          Synpr.fasta          -             5e-190  624.2   6.3  5.7e-190  624.0   6.3   1.0   1   0   0   1   1   1   1 -
+Obese2               -          Synpr.fasta          -             5e-190  624.2   6.3  5.7e-190  624.0   6.3   1.0   1   0   0   1   1   1   1 -
+Obese2               -          Synpr.fasta          -             5e-190  624.2   6.3  5.7e-190  624.0   6.3   1.0   1   0   0   1   1   1   1 -
+Obese2               -          Synpr.fasta          -             5e-190  624.2   6.3  5.7e-190  624.0   6.3   1.0   1   0   0   1   1   1   1 -
+Obese2               -          Synpr.fasta          -             5e-190  624.2   6.3  5.7e-190  624.0   6.3   1.0   1   0   0   1   1   1   1 -
+Obese2               -          Synpr.fasta          -             5e-190  624.2   6.3  5.7e-190  624.0   6.3   1.0   1   0   0   1   1   1   1 -
+Obese2               -          Synpr.fasta          -             5e-190  624.2   6.3  5.7e-190  624.0   6.3   1.0   1   0   0   1   1   1   1 -
+Obese2               -          Synpr.fasta          -             5e-190  624.2   6.3  5.7e-190  624.0   6.3   1.0   1   0   0   1   1   1   1 -
+Obese2               -          Synpr.fasta          -             5e-190  624.2   6.3  5.7e-190  624.0   6.3   1.0   1   0   0   1   1   1   1 -
+Obese2               -          Synpr.fasta          -             5e-190  624.2   6.3  5.7e-190  624.0   6.3   1.0   1   0   0   1   1   1   1 -
+Obese2               -          Synpr.fasta          -             5e-190  624.2   6.3  5.7e-190  624.0   6.3   1.0   1   0   0   1   1   1   1 -
+Obese2               -          Synpr.fasta          -             5e-190  624.2   6.3  5.7e-190  624.0   6.3   1.0   1   0   0   1   1   1   1 -
+Obese2               -          Synpr.fasta          -             5e-190  624.2   6.3  5.7e-190  624.0   6.3   1.0   1   0   0   1   1   1   1 -
+Obese2               -          Synpr.fasta          -             5e-190  624.2   6.3  5.7e-190  624.0   6.3   1.0   1   0   0   1   1   1   1 -
+Obese2               -          Synpr.fasta          -             5e-190  624.2   6.3  5.7e-190  624.0   6.3   1.0   1   0   0   1   1   1   1 -
+Obese2               -          Synpr.fasta          -             5e-190  624.2   6.3  5.7e-190  624.0   6.3   1.0   1   0   0   1   1   1   1 -
+Obese2               -          Synpr.fasta          -             5e-190  624.2   6.3  5.7e-190  624.0   6.3   1.0   1   0   0   1   1   1   1 -
+Obese2               -          Synpr.fasta          -             5e-190  624.2   6.3  5.7e-190  624.0   6.3   1.0   1   0   0   1   1   1   1 -
+Obese2               -          Synpr.fasta          -             5e-190  624.2   6.3  5.7e-190  624.0   6.3   1.0   1   0   0   1   1   1   1 -
+Obese2               -          Synpr.fasta          -             5e-190  624.2   6.3  5.7e-190  624.0   6.3   1.0   1   0   0   1   1   1   1 -
+Obese2               -          Synpr.fasta          -             5e-190  624.2   6.3  5.7e-190  624.0   6.3   1.0   1   0   0   1   1   1   1 -
+Obese2               -          Synpr.fasta          -             5e-190  624.2   6.3  5.7e-190  624.0   6.3   1.0   1   0   0   1   1   1   1 -
+Obese2               -          Synpr.fasta          -             5e-190  624.2   6.3  5.7e-190  624.0   6.3   1.0   1   0   0   1   1   1   1 -
+Obese2               -          Synpr.fasta          -             5e-190  624.2   6.3  5.7e-190  624.0   6.3   1.0   1   0   0   1   1   1   1 -
+Obese2               -          Synpr.fasta          -             5e-190  624.2   6.3  5.7e-190  624.0   6.3   1.0   1   0   0   1   1   1   1 -
+Obese2               -          Synpr.fasta          -             5e-190  624.2   6.3  5.7e-190  624.0   6.3   1.0   1   0   0   1   1   1   1 -
+Obese2               -          Synpr.fasta          -             5e-190  624.2   6.3  5.7e-190  624.0   6.3   1.0   1   0   0   1   1   1   1 -
+Obese2               -          Synpr.fasta          -             5e-190  624.2   6.3  5.7e-190  624.0   6.3   1.0   1   0   0   1   1   1   1 -
+Obese2               -          Synpr.fasta          -             5e-190  624.2   6.3  5.7e-190  624.0   6.3   1.0   1   0   0   1   1   1   1 -
+Obese2               -          Synpr.fasta          -             5e-190  624.2   6.3  5.7e-190  624.0   6.3   1.0   1   0   0   1   1   1   1 -
+Obese2               -          Synpr.fasta          -             5e-190  624.2   6.3  5.7e-190  624.0   6.3   1.0   1   0   0   1   1   1   1 -
+Obese2               -          Synpr.fasta          -             5e-190  624.2   6.3  5.7e-190  624.0   6.3   1.0   1   0   0   1   1   1   1 -
+Obese2               -          Synpr.fasta          -             5e-190  624.2   6.3  5.7e-190  624.0   6.3   1.0   1   0   0   1   1   1   1 -
+Obese2               -          Synpr.fasta          -             5e-190  624.2   6.3  5.7e-190  624.0   6.3   1.0   1   0   0   1   1   1   1 -
+Obese2               -          Synpr.fasta          -             5e-190  624.2   6.3  5.7e-190  624.0   6.3   1.0   1   0   0   1   1   1   1 -
+Obese2               -          Synpr.fasta          -             5e-190  624.2   6.3  5.7e-190  624.0   6.3   1.0   1   0   0   1   1   1   1 -
+Obese2               -          Synpr.fasta          -             5e-190  624.2   6.3  5.7e-190  624.0   6.3   1.0   1   0   0   1   1   1   1 -
+Obese2               -          Synpr.fasta          -             5e-190  624.2   6.3  5.7e-190  624.0   6.3   1.0   1   0   0   1   1   1   1 -
+Obese2               -          Synpr.fasta          -             5e-190  624.2   6.3  5.7e-190  624.0   6.3   1.0   1   0   0   1   1   1   1 -
+Obese2               -          Synpr.fasta          -             5e-190  624.2   6.3  5.7e-190  624.0   6.3   1.0   1   0   0   1   1   1   1 -
+Obese2               -          Synpr.fasta          -             5e-190  624.2   6.3  5.7e-190  624.0   6.3   1.0   1   0   0   1   1   1   1 -
+Obese2               -          Synpr.fasta          -             5e-190  624.2   6.3  5.7e-190  624.0   6.3   1.0   1   0   0   1   1   1   1 -
+Obese2               -          Synpr.fasta          -             5e-190  624.2   6.3  5.7e-190  624.0   6.3   1.0   1   0   0   1   1   1   1 -
+Obese2               -          Synpr.fasta          -             5e-190  624.2   6.3  5.7e-190  624.0   6.3   1.0   1   0   0   1   1   1   1 -
+Obese2               -          Synpr.fasta          -             5e-190  624.2   6.3  5.7e-190  624.0   6.3   1.0   1   0   0   1   1   1   1 -
+Obese2               -          Synpr.fasta          -             5e-190  624.2   6.3  5.7e-190  624.0   6.3   1.0   1   0   0   1   1   1   1 -
+Obese2               -          Synpr.fasta          -             5e-190  624.2   6.3  5.7e-190  624.0   6.3   1.0   1   0   0   1   1   1   1 -
+Obese2               -          Synpr.fasta          -             5e-190  624.2   6.3  5.7e-190  624.0   6.3   1.0   1   0   0   1   1   1   1 -
+Obese2               -          Synpr.fasta          -             5e-190  624.2   6.3  5.7e-190  624.0   6.3   1.0   1   0   0   1   1   1   1 -
+Obese2               -          Synpr.fasta          -             5e-190  624.2   6.3  5.7e-190  624.0   6.3   1.0   1   0   0   1   1   1   1 -
+Obese2               -          Synpr.fasta          -             5e-190  624.2   6.3  5.7e-190  624.0   6.3   1.0   1   0   0   1   1   1   1 -
+Obese2               -          Synpr.fasta          -             5e-190  624.2   6.3  5.7e-190  624.0   6.3   1.0   1   0   0   1   1   1   1 -
+Obese2               -          Synpr.fasta          -             5e-190  624.2   6.3  5.7e-190  624.0   6.3   1.0   1   0   0   1   1   1   1 -
+Obese2               -          Synpr.fasta          -             5e-190  624.2   6.3  5.7e-190  624.0   6.3   1.0   1   0   0   1   1   1   1 -
+Obese2               -          Synpr.fasta          -             5e-190  624.2   6.3  5.7e-190  624.0   6.3   1.0   1   0   0   1   1   1   1 -
+Obese2               -          Synpr.fasta          -             5e-190  624.2   6.3  5.7e-190  624.0   6.3   1.0   1   0   0   1   1   1   1 -
+Obese2               -          Synpr.fasta          -             5e-190  624.2   6.3  5.7e-190  624.0   6.3   1.0   1   0   0   1   1   1   1 -
+Obese2               -          Synpr.fasta          -             5e-190  624.2   6.3  5.7e-190  624.0   6.3   1.0   1   0   0   1   1   1   1 -
+Obese2               -          Synpr.fasta          -             5e-190  624.2   6.3  5.7e-190  624.0   6.3   1.0   1   0   0   1   1   1   1 -
+Obese2               -          Synpr.fasta          -             5e-190  624.2   6.3  5.7e-190  624.0   6.3   1.0   1   0   0   1   1   1   1 -
+Obese2               -          Synpr.fasta          -             5e-190  624.2   6.3  5.7e-190  624.0   6.3   1.0   1   0   0   1   1   1   1 -
+Obese2               -          Synpr.fasta          -             5e-190  624.2   6.3  5.7e-190  624.0   6.3   1.0   1   0   0   1   1   1   1 -
+Obese2               -          Synpr.fasta          -             5e-190  624.2   6.3  5.7e-190  624.0   6.3   1.0   1   0   0   1   1   1   1 -
+Obese2               -          Synpr.fasta          -             5e-190  624.2   6.3  5.7e-190  624.0   6.3   1.0   1   0   0   1   1   1   1 -
+Obese2               -          Synpr.fasta          -             5e-190  624.2   6.3  5.7e-190  624.0   6.3   1.0   1   0   0   1   1   1   1 -
+Obese2               -          Synpr.fasta          -             5e-190  624.2   6.3  5.7e-190  624.0   6.3   1.0   1   0   0   1   1   1   1 -
+Obese2               -          Synpr.fasta          -             5e-190  624.2   6.3  5.7e-190  624.0   6.3   1.0   1   0   0   1   1   1   1 -
+Obese2               -          Synpr.fasta          -             5e-190  624.2   6.3  5.7e-190  624.0   6.3   1.0   1   0   0   1   1   1   1 -
+Obese2               -          Synpr.fasta          -             5e-190  624.2   6.3  5.7e-190  624.0   6.3   1.0   1   0   0   1   1   1   1 -
+Obese2               -          Synpr.fasta          -             5e-190  624.2   6.3  5.7e-190  624.0   6.3   1.0   1   0   0   1   1   1   1 -
+Obese2               -          Synpr.fasta          -             5e-190  624.2   6.3  5.7e-190  624.0   6.3   1.0   1   0   0   1   1   1   1 -
+Obese2               -          Synpr.fasta          -             5e-190  624.2   6.3  5.7e-190  624.0   6.3   1.0   1   0   0   1   1   1   1 -
+Obese2               -          Synpr.fasta          -             5e-190  624.2   6.3  5.7e-190  624.0   6.3   1.0   1   0   0   1   1   1   1 -
+Obese2               -          Synpr.fasta          -             5e-190  624.2   6.3  5.7e-190  624.0   6.3   1.0   1   0   0   1   1   1   1 -
+Obese2               -          Synpr.fasta          -             5e-190  624.2   6.3  5.7e-190  624.0   6.3   1.0   1   0   0   1   1   1   1 -
+Obese2               -          Synpr.fasta          -             5e-190  624.2   6.3  5.7e-190  624.0   6.3   1.0   1   0   0   1   1   1   1 -
+Obese2               -          Synpr.fasta          -             5e-190  624.2   6.3  5.7e-190  624.0   6.3   1.0   1   0   0   1   1   1   1 -
+Obese2               -          Synpr.fasta          -             5e-190  624.2   6.3  5.7e-190  624.0   6.3   1.0   1   0   0   1   1   1   1 -
+Obese2               -          Synpr.fasta          -             5e-190  624.2   6.3  5.7e-190  624.0   6.3   1.0   1   0   0   1   1   1   1 -
+Obese2               -          Synpr.fasta          -             5e-190  624.2   6.3  5.7e-190  624.0   6.3   1.0   1   0   0   1   1   1   1 -
+Obese2               -          Synpr.fasta          -             5e-190  624.2   6.3  5.7e-190  624.0   6.3   1.0   1   0   0   1   1   1   1 -
+Obese2               -          Synpr.fasta          -             5e-190  624.2   6.3  5.7e-190  624.0   6.3   1.0   1   0   0   1   1   1   1 -
+Obese2               -          Synpr.fasta          -             5e-190  624.2   6.3  5.7e-190  624.0   6.3   1.0   1   0   0   1   1   1   1 -
+Obese2               -          Synpr.fasta          -             5e-190  624.2   6.3  5.7e-190  624.0   6.3   1.0   1   0   0   1   1   1   1 -
+Obese2               -          Synpr.fasta          -             5e-190  624.2   6.3  5.7e-190  624.0   6.3   1.0   1   0   0   1   1   1   1 -
+Obese2               -          Synpr.fasta          -             5e-190  624.2   6.3  5.7e-190  624.0   6.3   1.0   1   0   0   1   1   1   1 -
+Obese2               -          Synpr.fasta          -             5e-190  624.2   6.3  5.7e-190  624.0   6.3   1.0   1   0   0   1   1   1   1 -
+Obese2               -          Synpr.fasta          -             5e-190  624.2   6.3  5.7e-190  624.0   6.3   1.0   1   0   0   1   1   1   1 -
+Obese2               -          Synpr.fasta          -             5e-190  624.2   6.3  5.7e-190  624.0   6.3   1.0   1   0   0   1   1   1   1 -
+Obese2               -          Synpr.fasta          -             5e-190  624.2   6.3  5.7e-190  624.0   6.3   1.0   1   0   0   1   1   1   1 -
+Obese2               -          Synpr.fasta          -             5e-190  624.2   6.3  5.7e-190  624.0   6.3   1.0   1   0   0   1   1   1   1 -
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      Synpr.fasta.align.hmm
+# Target file:     ../obese2Protein
+# Option settings: ../hmmer-3.1b2-cygwin64/binaries/hmmsearch --tblout ../obese2Protein*Synpr.hits Synpr.fasta.align.hmm ../obese2Protein 
+# Current dir:     /test-git/Bioinfo-Group-Project-ND/HMMandMuscle/HMM
+# Date:            Wed Dec  6 12:30:05 2017
+# [ok]
