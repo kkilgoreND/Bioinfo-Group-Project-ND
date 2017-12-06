@@ -3,7 +3,6 @@ import re
 import sys
 import itertools
 from sys import argv
-#script, filename = argv
 from itertools import takewhile
 
 # Open data files 
@@ -22,6 +21,7 @@ for line in codons:
     else:
         codonMapDict [cols[1]] = cols[0]
 
+#Create definition to be used in subsequent file conversions
 def translateDna(sequence, codonMapDict, stopCodons = ('TAA', 'TGA', 'TAG')):
     #find first start codon 
     start = sequence.find('ATG')    
