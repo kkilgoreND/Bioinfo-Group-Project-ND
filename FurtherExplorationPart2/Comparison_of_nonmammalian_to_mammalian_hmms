@@ -1,0 +1,28 @@
+For the results from the Obese1 sequence file, using mammalian sequences as a reference for the HMMbuild and HMMsearch, the following can be determined...
+
+Atp12a returned an e-value of 0
+Gsta2 returned an e-value of 1.9e-130
+Lhx2 and Ptpn5 did not return any hits
+Slc7a12 returned an e-value of 2.3e-291
+Synpr returned an e-value of 5.2e-190
+
+Total hit counts were as follows...
+
+Atp12a     38
+Gsta2      2
+Lhx2       0
+Ptpn5      0
+Slc7a12    16
+Synpr      100
+
+For the results from the Obese1 sequence file, using nonmammalian sequences as a reference for the HMMbuild and HMMsearch, the following can be determined...
+
+Atp12a returned an e-value of 0
+Gsta2 returned an e-value of 7.7e-128
+Lhx2 and Ptpn5 did not return any hits
+Slc7a12 returned an e-value of 8.1e-87
+Synpr returned an e-value of 8.4e-183
+
+Total hit counts remained unchanged, however. Thus, in examining the differences between the e-value returns, including nonmammalian sequences in building HMM models was 
+detrimental in the cases of Gsta2, Slc7a12, and Synpr. While it was not enough to cause differences in returned hit counts, it is almost certain that, for other proteins, 
+hit counts would be affected.
