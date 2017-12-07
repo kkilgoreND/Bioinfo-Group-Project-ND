@@ -1,0 +1,15 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Obese1               -          Gsta2.2.fasta        -           7.7e-128  419.4   0.5  8.6e-128  419.2   0.5   1.0   1   0   0   1   1   1   1 -
+Obese1               -          Gsta2.2.fasta        -           7.7e-128  419.4   0.5  8.6e-128  419.2   0.5   1.0   1   0   0   1   1   1   1 -
+#
+# Program:         hmmsearch
+# Version:         3.1b2 (February 2015)
+# Pipeline mode:   SEARCH
+# Query file:      Gsta2.2.fasta.align.hmm
+# Target file:     ../obese1protein
+# Option settings: ../../HMMandMuscle/hmmer-3.1b2-cygwin64/binaries/hmmsearch --tblout Gsta2.hits Gsta2.2.fasta.align.hmm ../obese1protein 
+# Current dir:     /test-git/Bioinfo-Group-Project-ND/FurtherExplorationPart2/HMM
+# Date:            Thu Dec  7 13:40:19 2017
+# [ok]
